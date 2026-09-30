@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data hasil proses (dibuat ulang dengan: python src/data_setup.py)
+data/processed/*
+!data/processed/.gitkeep
+
+# Arsip & file OS/editor
+*.zip
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
